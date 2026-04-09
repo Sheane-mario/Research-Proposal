@@ -1,0 +1,89 @@
+\documentclass[12pt, a4paper]{report} % Use 'report' for chapters
+
+% 1. Encoding and Fonts
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+
+% 2. Strict Margin Requirements 
+\usepackage[left=1.5in, right=1in, top=1.5in, bottom=1in]{geometry}
+
+% 3. Line Spacing (standard for LRs)
+\renewcommand{\baselinestretch}{1.5}
+
+% 4. Hyperlinks for clickable references
+\usepackage[
+    bookmarks = true,
+    bookmarksopen = true,
+    bookmarksnumbered = true,
+    breaklinks = true  % Ensure links can break across lines
+]{hyperref}
+
+\hypersetup{
+    pdftitle = {Beyond Fucntional Correctness},
+    pdfauthor = {Sheane Mario Silva},
+    pdfsubject = {},
+    pdfkeywords = {Keywords}    
+}
+\usepackage{amsmath}
+\usepackage{acronym}
+
+% 5. Harvard Referencing Setup 
+%\usepackage[backend=biber, style=authoryear, maxcitenames=2, mincitenames=1, maxbibnames=99, giveninits=true, uniquelist=false, dashed=false]{biblatex}
+\usepackage[
+    backend=biber,
+    style=authoryear,
+    maxcitenames=2,
+    mincitenames=1,
+    maxbibnames=99,
+    giveninits=true,
+    uniquename=init,
+    uniquelist=false,
+    dashed=false
+]{biblatex}
+\renewcommand{\nameyeardelim}{\addcomma\space} % Adds comma between Author, Year [cite: 219]
+\DeclareDelimFormat{multinamedelim}{\addspace and\space}
+\DeclareDelimFormat{finalnamedelim}{\addspace and\space}
+\DefineBibliographyStrings{english}{%
+  andothers = {\textit{et al.}},
+}
+\addbibresource{references.bib}
+
+\begin{document}
+    % --- Front Matter (Roman Numerals) ---
+    \pagenumbering{roman} % [cite: 87]
+    \input{sections/frontmatter} % Your university title/declaration file
+
+    \chapter*{Acknowledgement}
+    \input{sections/acknowledgement.tex}
+
+    \chapter*{List of Acronyms}
+    \addcontentsline{toc}{chapter}{List of Acronyms}
+    \begin{acronym}
+        \acro{API}{Application Programming Interface}
+        \acro{BLEU}{Bilingual Evaluation Understudy}
+        \acro{GPT}{Generative Pretrained Transformer}
+        \acro{IDE}{Intergrated Development Environment}
+        \acro{LLM}{Large Language Model}
+        \acro{METEOR}{Metric for Evaluation of Translation with Explicit Ordering}
+        \acro{NLP}{Natural Language Processing}
+        \acro{ROUGE}{Recall-Oriented Understudy for Gisting Evaluation}
+    \end{acronym}
+
+    \chapter*{Abstract}
+    \addcontentsline{toc}{chapter}{Abstract}
+    \input{sections/abstract.tex}
+
+    \tableofcontents
+    \newpage
+
+    % --- Main Content (Arabic Numerals) ---
+    \pagenumbering{arabic} % [cite: 88]
+    \chapter{Introduction}
+    \input{sections/intro}
+
+    \chapter{Conclusion}
+    \input{sections/conclusion}
+
+    \printbibliography[title={References}] % [cite: 79]
+        % Content will go here
+\end{document}
