@@ -1,1 +1,18 @@
-Write the intro here.
+The software engineering landscape is currently undergoing a paradigm shift, transitioning from traditional human-centric development to a model of Artificial Intelligence-Human Paired Programming. This transformation is driven by the rapid integration of Large Language Models (LLMs) such as GPT-4, Claude, and GitHub Copilot into the Software Development Life Cycle (SDLC). Empirical evidence suggests that these tools significantly enhance developer productivity, with studies reporting speed increases of up to 56\% and substantial improvements in throughput. However, this surge in velocity has introduced a "Success Paradox": models that achieve high scores in functional correctness—the ability to pass predefined unit tests—often produce codebases characterized by structural degradation, resource inefficiency, and critical security vulnerabilities \parencite{liu2024ArtificialIntelligenceHumanPaired}.
+
+Current evaluation paradigms rely heavily on binary metrics such as $pass@k$ or textual similarity measures like BLEU, which were originally designed for natural language translation rather than the complex, formal semantics of source code. These metrics offer an "execution-time success" that does not guarantee "maintenance-time sustainability". As the industry moves from viewing AI as an insignificant coding assistant to a primary code generator, the role of the software engineer is evolving from an author to a reviewer and auditor. Consequently, there is an urgent requirement to move beyond isolated functional assessment toward a multidimensional quality governance framework \parencite{Evtikhiev_2023}.
+
+\section{Domain}
+
+The proposed research is situated within the domain of **AI-Assisted Software Quality Engineering (AI-SQE)**. This field examines the long-term impact of LLM-generated code on the health, security, and operational costs of software systems. The research specifically focuses on the formulation of a composite evaluation framework that addresses three critical pillars of software quality:
+
+\begin{itemize}
+    \item \textbf{Long-term Maintainability and Software Evolution}: This sub-domain investigates the "add it and forget it" anti-pattern, where AI tools encourage the rapid addition of new code blocks rather than the refactoring of existing ones. This leads to an "Execution-Maintenance gap," characterized by an eightfold increase in code duplication and a 60\% decline in refactoring activity compared to the pre-AI era \parencite{gitclear}.
+    \item \textbf{Security Posture and Vulnerability Resilience}: This area addresses the "Security Gap" inherent in LLM-generated outputs. Despite being functionally correct, AI-generated code frequently reproduces common flaws from its training data, such as the MITRE CWE Top 25\footnote{Highlights the most common and impactful software weaknesses}. 
+    \item \textbf{Operational Efficiency and Sustainability}: This sub-domain explores the "Efficiency Paradox," where the time saved during development is offset by increased costs during operation. State-of-the-art LLMs often consumes more energy in complex algorithmic tasks like dynamic programming or bit manipulation.
+\end{itemize}
+
+\section{Motivation}
+
+The motivation for this research is from optimizing models for functional success often results in a neglect of security best practices and architectural coherence.
+Existing benchmarks are largely "snippet-level," failing to capture the complexity of real-world software where vulnerabilities and inefficiencies arise from interactions between multiple components and cross-file dependencies. Furthermore, current evaluation tools are "feature-rich but signal-poor"; while developers have access to data on duplication, bugs, and runtime, they lack a unified signal to guide the acceptance or rejection of AI-generated snippets based on overall codebase health \parencite{lian2025aserepositorylevelbenchmarkevaluating}.

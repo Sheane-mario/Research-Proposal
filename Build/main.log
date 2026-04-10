@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.31)  9 APR 2026 13:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.31)  10 APR 2026 16:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -566,79 +566,78 @@ Underfull \hbox (badness 10000) in paragraph at lines 32--55
 pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.56     \chapter
-                 *{Acknowledgement} [1] (sections/acknowledgement.tex) [2
+l.59     \chapter
+                 *{List of Acronyms} [1]
 
-]
-
-LaTeX Warning: Hyper reference `acro:API' on page iii undefined on input line 62.
+LaTeX Warning: Hyper reference `acro:API' on page ii undefined on input line 62.
 
 
-LaTeX Warning: Hyper reference `acro:API' on page iii undefined on input line 62.
+LaTeX Warning: Hyper reference `acro:API' on page ii undefined on input line 62.
 
 
-LaTeX Warning: Hyper reference `acro:BLEU' on page iii undefined on input line 63.
+LaTeX Warning: Hyper reference `acro:BLEU' on page ii undefined on input line 63.
 
 
-LaTeX Warning: Hyper reference `acro:BLEU' on page iii undefined on input line 63.
+LaTeX Warning: Hyper reference `acro:BLEU' on page ii undefined on input line 63.
 
 
-LaTeX Warning: Hyper reference `acro:GPT' on page iii undefined on input line 64.
+LaTeX Warning: Hyper reference `acro:GPT' on page ii undefined on input line 64.
 
 
-LaTeX Warning: Hyper reference `acro:GPT' on page iii undefined on input line 64.
+LaTeX Warning: Hyper reference `acro:GPT' on page ii undefined on input line 64.
 
 
-LaTeX Warning: Hyper reference `acro:IDE' on page iii undefined on input line 65.
+LaTeX Warning: Hyper reference `acro:IDE' on page ii undefined on input line 65.
 
 
-LaTeX Warning: Hyper reference `acro:IDE' on page iii undefined on input line 65.
+LaTeX Warning: Hyper reference `acro:IDE' on page ii undefined on input line 65.
 
 
-LaTeX Warning: Hyper reference `acro:LLM' on page iii undefined on input line 66.
+LaTeX Warning: Hyper reference `acro:LLM' on page ii undefined on input line 66.
 
 
-LaTeX Warning: Hyper reference `acro:LLM' on page iii undefined on input line 66.
+LaTeX Warning: Hyper reference `acro:LLM' on page ii undefined on input line 66.
 
 
-LaTeX Warning: Hyper reference `acro:METEOR' on page iii undefined on input line 67.
+LaTeX Warning: Hyper reference `acro:METEOR' on page ii undefined on input line 67.
 
 
-LaTeX Warning: Hyper reference `acro:METEOR' on page iii undefined on input line 67.
+LaTeX Warning: Hyper reference `acro:METEOR' on page ii undefined on input line 67.
 
 
-LaTeX Warning: Hyper reference `acro:NLP' on page iii undefined on input line 68.
+LaTeX Warning: Hyper reference `acro:NLP' on page ii undefined on input line 68.
 
 
-LaTeX Warning: Hyper reference `acro:NLP' on page iii undefined on input line 68.
+LaTeX Warning: Hyper reference `acro:NLP' on page ii undefined on input line 68.
 
 
-LaTeX Warning: Hyper reference `acro:ROUGE' on page iii undefined on input line 69.
+LaTeX Warning: Hyper reference `acro:ROUGE' on page ii undefined on input line 69.
 
 
-LaTeX Warning: Hyper reference `acro:ROUGE' on page iii undefined on input line 69.
+LaTeX Warning: Hyper reference `acro:ROUGE' on page ii undefined on input line 69.
 
-[3
-
-] (sections/abstract.tex) [4
+[2
 
 ] (d:\UCSC\3rd_year_sem_2\Research_Proposal\Build\main.toc)
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
- [5
+ [3
 
 ]
 Chapter 1.
-(sections/intro.tex) [1
+(sections/intro.tex [1
+
+]) [2] [3]
+Chapter 2.
+(sections/conclusion.tex) [4
 
 ]
-Chapter 2.
-(sections/conclusion.tex)
+Overfull \hbox (20.70642pt too wide) in paragraph at lines 87--87
+\T1/cmr/m/it/12 Re-search \T1/cmr/m/n/12 62.5, pp. 1165^^U1195. \T1/cmr/m/sc/12 issn\T1/cmr/m/n/12 : 0735-6331. \T1/cmr/m/sc/12 doi\T1/cmr/m/n/12 : []$\T1/cmtt/m/n/12 10 . 1177 / 07356331241240460$[]\T1/cmr/m/n/12 .
+ []
 
-LaTeX Warning: Empty bibliography on input line 87.
-
-[2
+[5
 
 ] (d:\UCSC\3rd_year_sem_2\Research_Proposal\Build\main.aux)
  ***********
@@ -650,23 +649,23 @@ L3 programming layer <2026-01-19>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: C1843D5F6590C825BE6D152191B7FB09;432.
+(rerunfilecheck)             Checksum: CE1DBEBA7573363523BE2DD01FE1F7C0;581.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 16811 strings out of 467866
- 293193 string characters out of 5418319
- 1139821 words of memory out of 5000000
- 45518 multiletter control sequences out of 15000+600000
- 635655 words of font info for 51 fonts, out of 8000000 for 9000
+ 17088 strings out of 467866
+ 298703 string characters out of 5418319
+ 1143526 words of memory out of 5000000
+ 45777 multiletter control sequences out of 15000+600000
+ 643525 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,5n,79p,734b,801s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\shean\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk> <C:\Users\shean\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\shean\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\shean\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\shean\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\shean\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1440.pk> <C:\Users\shean\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk> <C:\Users\shean\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2074.pk>
-Output written on d:\UCSC\3rd_year_sem_2\Research_Proposal\Build\main.pdf (8 pages, 92500 bytes).
+ 75i,8n,79p,1757b,1451s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\shean\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk> <C:\Users\shean\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1200.pk> <C:\Users\shean\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\shean\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0700.pk> <C:\Users\shean\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\shean\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\shean\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\shean\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk> <C:\Users\shean\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\shean\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\shean\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\shean\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\shean\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1440.pk> <C:\Users\shean\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk> <C:\Users\shean\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2074.pk><C:/Users/shean/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/shean/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb>
+Output written on d:\UCSC\3rd_year_sem_2\Research_Proposal\Build\main.pdf (9 pages, 172861 bytes).
 PDF statistics:
- 313 PDF objects out of 1000 (max. 8388607)
- 23 named destinations out of 1000 (max. 500000)
- 33 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 524 PDF objects out of 1000 (max. 8388607)
+ 30 named destinations out of 1000 (max. 500000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
