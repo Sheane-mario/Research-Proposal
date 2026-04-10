@@ -8,4 +8,8 @@
 \contentsline {subsection}{\numberline {2.2.1}The Efficiency Paradox: The Trade-off of Sustainability}{5}{subsection.2.2.1}%
 \contentsline {subsection}{\numberline {2.2.2}The Success/Maintainability Paradox: The "Add it and Forget it" Anti-pattern}{5}{subsection.2.2.2}%
 \contentsline {subsection}{\numberline {2.2.3}The Security-Functionality Disconnect: The Alignment Tax}{6}{subsection.2.2.3}%
-\contentsline {chapter}{\numberline {3}Conclusion}{7}{chapter.3}%
+\contentsline {chapter}{\numberline {3}Research Aims, Questions, and Objectives}{7}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Primary Aim}{7}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Research Questions}{7}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Research Objectives}{8}{section.3.3}%
+\contentsline {chapter}{\numberline {4}Conclusion}{9}{chapter.4}%

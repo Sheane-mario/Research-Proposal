@@ -1,0 +1,27 @@
+
+\section{Primary Aim}
+
+To develop and validate a \textbf{Composite Quality Index (CQI)} that mathematically unifies \textbf{Correctness}, \textbf{Maintainability}, \textbf{Security}, and \textbf{Efficiency} into a single governance framework for AI-assisted development.
+
+\section{Research Questions}
+
+Based on the critical gaps identified in current literature, this research seeks to address the following questions:
+
+\begin{itemize}
+    \item \textbf{RQ1: The Metric Integration Problem} How can disparate quality dimensions, such as execution efficiency, structural maintainability, and security risk, be normalized and integrated into a single, mathematically sound composite metric? 
+    \item \textbf{RQ2: The Reasoning-Security Paradox} To what extent do enhanced reasoning capabilities in LLMs correlate with the production of more secure and maintainable codebases, and how does this "reasoning budget" affect the overall quality index? 
+    \item \textbf{RQ3: The Context-Efficiency Gap} How does the reliance on snippet-level generation rather than "whole-repository" reasoning contribute to structural degradation and resource inefficiencies in AI-generated code? 
+    \item \textbf{RQ4: Language-Specific Variability} How significantly do the inherent characteristics of programming languages influence the weighting of the final composite score? 
+\end{itemize}
+
+\section{Research Objectives}
+
+To answer the research questions and fulfill the primary aim, the following objectives have been established:
+
+\begin{itemize}
+    \item \textbf{To quantify structural degradation\footnote{Long-term decline in the quality and organization of a software project’s architecture} patterns} by analyzing the relationship between the increase in code duplication and the simultaneous decline in refactoring activity within AI-assisted repositories.
+    \item \textbf{To identify novel technical debt categories} unique to LLM-integrated systems, such as "prompt debt," "hallucinated dependencies," and "architectural blindness," for inclusion in the maintainability assessment.
+    \item \textbf{To evaluate the "Efficiency Paradox"} through empirical benchmarking of runtime performance, memory usage, and energy consumption across diverse programming languages using frameworks like EffiBench and Mercury.
+    \item \textbf{To establish a "Security-Weighted" functional metric} that integrates traditional $pass@k$ success rates with vulnerability prevalence (VR) and severity scores (CVSS). 
+    \item \textbf{To formulate and validate a unified mathematical model (CQI)} that assigns dynamic weights to these four pillars, providing developers with a single, reliable signal for AI-generated codebase health. 
+\end{itemize}
