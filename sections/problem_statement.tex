@@ -1,0 +1,21 @@
+\section{The Research Gap}
+
+The current landscape of AI-assisted software development is dominated by a state of "Functional Myopia," where the evaluation of Large Language Models (LLMs) is primarily restricted to their ability to solve isolated, snippet-level programming tasks. While modern models demonstrate high proficiency on benchmarks such as \textbf{HumanEval} and \textbf{MBPP}, these assessments focus almost exclusively on functional correctness—whether the code performs its intended task—while ignoring the broader quality characteristics essential for production-grade software \parencite{liu2023codegeneratedchatgptreally}.
+
+A critical disconnect exists between a model’s capacity to produce code that "runs" in a controlled environment and its ability to generate codebases that are sustainable, secure, and resource-efficient in the long run. Modern literature suggests that real-world software engineering involves complex inter-dependencies, architectural constraints, and multi-file contexts that current snippet-level benchmarks fail to simulate. Consequently, there is a significant research gap regarding the formulation of a validated composite metric that can capture these multidimensional quality signals to ensure long-term codebase health.
+
+\section{Justification}
+
+The necessity of this research is underscored by three emerging paradoxes identified across the domains of efficiency, maintainability, and security.
+
+\subsection{The Efficiency Paradox: The Trade-off of Sustainability}
+
+While AI tools undoubtedly accelerate the code-writing process, this speed often comes at the cost of long-term operational sustainability. LLMs are fundamentally trained to prioritize producing a correct result over an efficient one, often leading to sub-optimal algorithmic choices. This creates a "runtime gap" where AI-generated solutions frequently consume significantly more memory, computing power, than human-expert solutions, particularly in complex areas such as dynamic programming or systems-level programming. For production software running at scale, the increased infrastructure costs and environmental impact of this "power-hungry" code can eventually outweigh the one-time productivity gains achieved during the development phase
+
+\subsection{The Success/Maintainability Paradox: The "Add it and Forget it" Anti-pattern}
+
+High functional scores on standard benchmarks often mask a structural degradation within the codebase, a phenomenon described as the "add it and forget it" anti-pattern. Longitudinal studies of global repositories indicate that the rise of AI-assisted coding has correlated with a sharp increase in code duplication and a simultaneous decline in refactoring activity. Because LLMs primarily operate through an autoregressive, next-token prediction mechanism within fixed context windows, they often struggle to recognize opportunities for code reuse across a larger system. Instead of modifying existing logic, AI assistants tend to suggest entirely new code blocks, leading to locally correct but globally redundant solutions that compound technical debt and increase the maintenance burden over time.
+
+\subsection{The Security-Functionality Disconnect: The Alignment Tax}
+
+A critical finding in recent security research is that there is no direct correlation between a model’s functional performance and its security posture. Models that excel at passing unit tests frequently generate "bare-bones" code that lacks essential defensive layers, such as input sanitization or proper credential management. This creates an "alignment tax" where models optimized for utility and correctness may inadvertently reproduce or even amplify known vulnerabilities found in their training data. Furthermore, enhanced "reasoning" capabilities in newer models do not inherently translate to safer code in repository-level settings, as the complexity of maintaining security constraints across multiple files and dependencies often overwhelms current model capacities \parencite{sabra2025assessingqualitysecurityaigenerated}.

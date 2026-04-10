@@ -2378,6 +2378,8 @@
     <bcf:citekey order="2" intorder="1">Evtikhiev_2023</bcf:citekey>
     <bcf:citekey order="3" intorder="1">gitclear</bcf:citekey>
     <bcf:citekey order="4" intorder="1">lian2025aserepositorylevelbenchmarkevaluating</bcf:citekey>
+    <bcf:citekey order="5" intorder="1">liu2023codegeneratedchatgptreally</bcf:citekey>
+    <bcf:citekey order="6" intorder="1">sabra2025assessingqualitysecurityaigenerated</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">
