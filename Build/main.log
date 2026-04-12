@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.9.26)  13 APR 2026 01:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.9.26)  13 APR 2026 01:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -390,7 +390,7 @@ e
 ))
 Package hyperref Info: Option `pageanchor' set `false' on input line 74.
  (./sections/frontmatter.tex
-<ucsc.png, id=68, 281.05pt x 281.05pt>
+<ucsc.png, id=104, 281.05pt x 281.05pt>
 File: ucsc.png Graphic file (type png)
 <use ucsc.png>
 Package pdftex.def Info: ucsc.png  used on input line 22.
@@ -401,13 +401,13 @@ Package pdftex.def Info: ucsc.png  used on input line 22.
 ucsc.png>]) [1
 
 
-] (Build/main.toc)
+] (Build/main.toc [2
+
+])
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
- [2
-
-]
+ [3]
 Package hyperref Info: Option `pageanchor' set `true' on input line 99.
 
 Chapter 1.
@@ -463,20 +463,14 @@ File: t1cmtt.fd 2022/07/10 v2.5l Standard LaTeX font definitions
 
 ]
 (Build/main.aux)
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: 2F1B8F2C7077C06673E7AEDF80C72D5F;3241
-(rerunfilecheck)             After:  5BF6456026983B40405BAB1C07C1BB20;5735.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 5BF6456026983B40405BAB1C07C1BB20;5735.
  ) 
 Here is how much of TeX's memory you used:
- 9765 strings out of 477476
- 154109 string characters out of 5824244
- 1856388 words of memory out of 5000000
- 29820 multiletter control sequences out of 15000+600000
+ 9774 strings out of 477476
+ 154254 string characters out of 5824244
+ 1858388 words of memory out of 5000000
+ 29829 multiletter control sequences out of 15000+600000
  525270 words of font info for 59 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
  75i,8n,76p,972b,506s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -497,10 +491,10 @@ rendran/Library/texlive/2023basic/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm144
 023basic/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1728.600pk></usr/local/texli
 ve/2023basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/t
 exlive/2023basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on Build/main.pdf (17 pages, 182518 bytes).
+Output written on Build/main.pdf (18 pages, 184490 bytes).
 PDF statistics:
- 599 PDF objects out of 1000 (max. 8388607)
- 214 compressed objects within 3 object streams
+ 638 PDF objects out of 1000 (max. 8388607)
+ 252 compressed objects within 3 object streams
  43 named destinations out of 1000 (max. 500000)
- 134 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 206 words of extra memory for PDF output out of 10000 (max. 10000000)
 

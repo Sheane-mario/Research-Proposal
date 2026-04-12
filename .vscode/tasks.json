@@ -1,0 +1,13 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Build LaTeX and Bibliography",
+			"type": "shell",
+			"command": "pdflatex -output-directory=Build main.tex && biber --output-directory=Build main && pdflatex -output-directory=Build main.tex && pdflatex -output-directory=Build main.tex",
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "build"
+		}
+	]
+}
