@@ -1,4 +1,4 @@
-\contentsline {chapter}{List of Acronyms}{ii}{chapter*.2}%
+\contentsline {chapter}{List of Acronyms}{i}{chapter*.1}%
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Domain}{2}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Motivation}{2}{section.1.2}%
@@ -12,4 +12,14 @@
 \contentsline {section}{\numberline {3.1}Primary Aim}{7}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Research Questions}{7}{section.3.2}%
 \contentsline {section}{\numberline {3.3}Research Objectives}{8}{section.3.3}%
-\contentsline {chapter}{\numberline {4}Conclusion}{9}{chapter.4}%
+\contentsline {chapter}{\numberline {4}Evaluation Methods and Data Requirements}{9}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Data Requirements}{9}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Repository Scale and Composition}{9}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Established Benchmark Datasets (For Baseline Comparison)}{10}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}Multi-Language Source Files}{10}{subsection.4.1.3}%
+\contentsline {section}{\numberline {4.2}Evaluation Method}{10}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Comparative Metric Analysis (The Core Evaluation)}{10}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Baseline Benchmarking (Human vs.\ AI)}{11}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Multi-Dimensional Quality and Security Assessment}{11}{subsection.4.2.3}%
+\contentsline {chapter}{\numberline {5}Conclusion}{13}{chapter.5}%
+\contentsline {chapter}{References}{14}{chapter*.3}%

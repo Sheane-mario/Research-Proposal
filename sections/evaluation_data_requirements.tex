@@ -1,0 +1,43 @@
+\section{Data Requirements}
+To ensure the evaluation accurately reflects real-world complexities and avoids the pitfalls of "snippet-level" testing, the data collection must be scaled and scoped appropriately.
+
+\subsection{Repository Scale and Composition}
+\begin{itemize}
+    \item \textbf{Volume:} Target a large-scale longitudinal dataset mimicking the scope of recent empirical studies (e.g., analyzing upwards of 50 to 200 million changed lines of code over a 3-to-5-year period to capture pre-AI and post-AI trends).
+    \item \textbf{Context Window Size:} Include repositories that test the upper limits of current LLM context windows (ranging from 8,000 to over 1 million tokens) to evaluate "architectural blindness" and cross-file dependency management.
+    \item \textbf{Project Diversity:} Select a minimum of 15--20 distinct, actively maintained open-source projects (similar to the SWR-Bench methodology). These should range from web frameworks to systems-level libraries to ensure diverse architectural patterns.
+    \item \textbf{Pull Request (PR) and Commit Data:} Collect thousands of manually verified PRs and commit histories. This data must include the "Code Churn" rate (code revised or deleted within two weeks of commit) to accurately measure the "add it and forget it" anti-pattern.
+\end{itemize}
+
+\subsection{Established Benchmark Datasets (For Baseline Comparison)}
+\begin{itemize}
+    \item \textbf{Functional/Snippet Level:} HumanEval+ and EvalPlus (for rigorous unit-test validation).
+    \item \textbf{Repository Level:} A.S.E (AI Code Generation Security Evaluation), SWE-bench, and RepoMasterEval.
+    \item \textbf{Efficiency Level:} EffiBench and Mercury.
+\end{itemize}
+
+\subsection{Multi-Language Source Files}
+Gather AI-generated and human-authored code across distinct paradigms: memory-unsafe (C/C++), managed/interpreted (Python, JavaScript), and strongly-typed (Java, TypeScript).
+
+\section{Evaluation Method}
+The evaluation methodology will utilize a comparative approach, validating the newly proposed metrics against established industry baselines to prove their necessity and effectiveness.
+
+\subsection{Comparative Metric Analysis (The Core Evaluation)}
+\begin{itemize}
+    \item \textbf{Traditional vs.\ Proposed Metrics:} Evaluate AI-generated code using standard metrics (like $Pass@k$, BLEU, and CodeBLEU) and simultaneously evaluate it using the proposed composite maintainability/security metrics.
+    \item \textbf{The "Alignment Tax" Measurement:} Quantify the gap between functional correctness and security. Compare the model's $Pass@k$ score against its Vulnerability Rate (VR). Demonstrate statistically how high functional scores often mask high vulnerability rates or structural degradation.
+    \item \textbf{SAST Comparison:} Run the AI-generated codebases through traditional Static Application Security Testing (SAST) tools (like CodeQL or SonarQube). Compare these baseline results against the detection rates of modern, AI-powered multi-agent review systems (like IRIS) to measure improvements in identifying complex, cross-file logic flaws and reducing false-positive rates.
+\end{itemize}
+
+\subsection{Baseline Benchmarking (Human vs.\ AI)}
+\begin{itemize}
+    \item \textbf{Historical Codebase Evolution:} Compare post-2022 AI-assisted repository data against pre-2021 human-authored baselines. Specifically, compare the ratio of duplicated/copy-pasted code blocks against refactored code to highlight the structural shift in software engineering.
+    \item \textbf{Efficiency Gap Benchmarking:} Profile the execution time, peak memory usage, and CPU energy consumption of AI-generated solutions. Compare these values directly against the human-expert solutions provided in frameworks like EffiBench to quantify the runtime performance deficit.
+\end{itemize}
+
+\subsection{Multi-Dimensional Quality and Security Assessment}
+\begin{itemize}
+    \item \textbf{Object-Oriented Complexity Tracking:} Measure the AI-generated code against the Basili et al. metric suite. Compare the Weighted Methods per Class (WMC) and Coupling Between Objects (CBO) of the AI code against acceptable industry thresholds for human production code.
+    \item \textbf{Dynamic Execution Verification:} Move beyond static analysis by utilizing dynamic oracles. Execute the generated code in a sandboxed environment to verify that it not only compiles but satisfies security specifications during runtime simulation (as seen in methodologies like HardSecBench).
+    \item \textbf{Hallucination and Anomaly Detection:} Track the rate of "Phantom Dependencies" and hallucinated APIs using deterministic Abstract Syntax Tree (AST) analysis, comparing the generated package calls against valid registry databases (e.g., npm, PyPI).
+\end{itemize}

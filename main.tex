@@ -20,38 +20,62 @@
 
 \hypersetup{
     pdftitle = {Towards a Multidimensional Composite Quality Index for AI-Generated Codebases},
-    pdfauthor = {Sheane Mario Silva},
+    pdfauthor = {Sheane Mario Silva, Praneesh Surendran, R.M.I.M. De Silva},
     pdfsubject = {},
     pdfkeywords = {Keywords}    
 }
+\usepackage{graphicx}
 \usepackage{amsmath}
-\usepackage{acronym}
+\IfFileExists{acronym.sty}{
+    \usepackage{acronym}
+}{
+    % Fallback so document can compile on minimal TeX installations.
+    \newenvironment{acronym}{\begin{description}}{\end{description}}
+    \newcommand{\acro}[2]{\item[\textbf{##1}] ##2}
+}
 
 % 5. Harvard Referencing Setup 
-%\usepackage[backend=biber, style=authoryear, maxcitenames=2, mincitenames=1, maxbibnames=99, giveninits=true, uniquelist=false, dashed=false]{biblatex}
-\usepackage[
-    backend=biber,
-    style=authoryear,
-    maxcitenames=2,
-    mincitenames=1,
-    maxbibnames=99,
-    giveninits=true,
-    uniquename=init,
-    uniquelist=false,
-    dashed=false
-]{biblatex}
-\renewcommand{\nameyeardelim}{\addcomma\space} % Adds comma between Author, Year [cite: 219]
-\DeclareDelimFormat{multinamedelim}{\addspace and\space}
-\DeclareDelimFormat{finalnamedelim}{\addspace and\space}
-\DefineBibliographyStrings{english}{%
-  andothers = {\textit{et al.}},
+\newif\ifusebiblatex
+\IfFileExists{biblatex.sty}{
+    \usebiblatextrue
+    \usepackage[
+        backend=biber,
+        style=authoryear,
+        maxcitenames=2,
+        mincitenames=1,
+        maxbibnames=99,
+        giveninits=true,
+        uniquename=init,
+        uniquelist=false,
+        dashed=false
+    ]{biblatex}
+    \renewcommand{\nameyeardelim}{\addcomma\space}
+    \DeclareDelimFormat{multinamedelim}{\addspace and\space}
+    \DeclareDelimFormat{finalnamedelim}{\addspace and\space}
+    \DefineBibliographyStrings{english}{%
+      andothers = {\textit{et al.}},
+    }
+    \addbibresource{references.bib}
+}{
+    \usebiblatexfalse
+    % Fallback citation commands and references section when biblatex is missing.
+    \providecommand{\parencite}[1]{(citation)}
+    \providecommand{\textcite}[1]{Citation}
+    \providecommand{\autocite}[1]{(citation)}
+    \newcommand{\printbibliography}[1][]{%
+        \chapter*{References}
+        \addcontentsline{toc}{chapter}{References}
+        Bibliography package \texttt{biblatex} is not available in this TeX setup.%
+    }
 }
-\addbibresource{references.bib}
 
 \begin{document}
     % --- Front Matter (Roman Numerals) ---
-    \pagenumbering{roman} % [cite: 87]
+    \hypersetup{pageanchor=false}
     \input{sections/frontmatter} % Your university title/declaration file
+    \clearpage
+    \pagenumbering{roman}
+    \setcounter{page}{1}
 
     %\chapter*{Acknowledgement}
     %\input{sections/acknowledgement.tex}
@@ -72,6 +96,7 @@
     \newpage
 
     % --- Main Content (Arabic Numerals) ---
+    \hypersetup{pageanchor=true}
     \pagenumbering{arabic} % [cite: 88]
     \chapter{Introduction}
     \input{sections/intro}
@@ -81,6 +106,9 @@
 
     \chapter{Research Aims, Questions, and Objectives}
     \input{sections/research_aims_questions_objectives}
+
+    \chapter{Evaluation Methods and Data Requirements}
+    \input{sections/evaluation_data_requirements}
 
     \chapter{Conclusion}
     \input{sections/conclusion}
