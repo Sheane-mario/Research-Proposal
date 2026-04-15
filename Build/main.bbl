@@ -1,0 +1,435 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global/global}
+    \entry{Evtikhiev_2023}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=133574dc9cac1fbe1199b4673b890bdf}{%
+           family={Evtikhiev},
+           familyi={E\bibinitperiod},
+           given={Mikhail},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=de54e2e9fceba66594ba2871f38d8204}{%
+           family={Bogomolov},
+           familyi={B\bibinitperiod},
+           given={Egor},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=758b58d9f08f6dc6d32d5824a2cc9e43}{%
+           family={Sokolov},
+           familyi={S\bibinitperiod},
+           given={Yaroslav},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=84de0a0da97e0b74d006aa091c46e0c6}{%
+           family={Bryksin},
+           familyi={B\bibinitperiod},
+           given={Timofey},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier BV}%
+      }
+      \strng{namehash}{cbb1f4fde258717c4c4bd73d586b1ab4}
+      \strng{fullhash}{b88cab64b62730401ee2d9fc75ef8ce3}
+      \strng{fullhashraw}{b88cab64b62730401ee2d9fc75ef8ce3}
+      \strng{bibnamehash}{b88cab64b62730401ee2d9fc75ef8ce3}
+      \strng{authorbibnamehash}{b88cab64b62730401ee2d9fc75ef8ce3}
+      \strng{authornamehash}{cbb1f4fde258717c4c4bd73d586b1ab4}
+      \strng{authorfullhash}{b88cab64b62730401ee2d9fc75ef8ce3}
+      \strng{authorfullhashraw}{b88cab64b62730401ee2d9fc75ef8ce3}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0164-1212}
+      \field{journaltitle}{Journal of Systems and Software}
+      \field{month}{9}
+      \field{title}{Out of the BLEU: How should we assess quality of the Code Generation models?}
+      \field{volume}{203}
+      \field{year}{2023}
+      \field{pages}{111741}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.jss.2023.111741
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1016/j.jss.2023.111741
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1016/j.jss.2023.111741
+      \endverb
+    \endentry
+    \entry{gitclear}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=bd4e53d11f11e06326e3c23a810fb85c}{%
+           family={GitClear},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{bd4e53d11f11e06326e3c23a810fb85c}
+      \strng{fullhash}{bd4e53d11f11e06326e3c23a810fb85c}
+      \strng{fullhashraw}{bd4e53d11f11e06326e3c23a810fb85c}
+      \strng{bibnamehash}{bd4e53d11f11e06326e3c23a810fb85c}
+      \strng{authorbibnamehash}{bd4e53d11f11e06326e3c23a810fb85c}
+      \strng{authornamehash}{bd4e53d11f11e06326e3c23a810fb85c}
+      \strng{authorfullhash}{bd4e53d11f11e06326e3c23a810fb85c}
+      \strng{authorfullhashraw}{bd4e53d11f11e06326e3c23a810fb85c}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{AI Copilot Code Quality: 2025 Look Back at 12 Months of Data}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://www.gitclear.com/ai_assistant_code_quality_2025_research
+      \endverb
+      \verb{url}
+      \verb https://www.gitclear.com/ai_assistant_code_quality_2025_research
+      \endverb
+    \endentry
+    \entry{lian2025aserepositorylevelbenchmarkevaluating}{misc}{}{}
+      \name{author}{22}{}{%
+        {{un=0,uniquepart=base,hash=6f7be24cc706bea2f8b90dd4956b7530}{%
+           family={Lian},
+           familyi={L\bibinitperiod},
+           given={Keke},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dc58cd6a24a023ce7177d8f199d47875}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Bin},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f4a4cbf770add19c206827116c68732e}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Lei},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b42b72ab698b87012736ede0868fb0ee}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Libo},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0311431642470a7b59cea4fbf9543da7}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Junjie},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0520bfa8022eca18f16f1685b4375855}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={Ziming},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e56f8cf0d754c623740fc82c02250785}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Yujiu},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=20a7cf0411385d7b86ff76b6ef73b647}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Miaoqian},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4e9b4a807512713baa9bd481bfbb8179}{%
+           family={Duan},
+           familyi={D\bibinitperiod},
+           given={Haotong},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e5a3369eb0fc7e4dfe775d60b36a152c}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={Haoran},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5f668e3cdcccbcdb18497b50dacedae5}{%
+           family={Liao},
+           familyi={L\bibinitperiod},
+           given={Shuang},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ddbfafd8fa1a839a159c44bf3474f4b7}{%
+           family={Guo},
+           familyi={G\bibinitperiod},
+           given={Mingda},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5fdde6a21f174e478a15322a1c7df460}{%
+           family={Quan},
+           familyi={Q\bibinitperiod},
+           given={Jiazheng},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d7585b218a79024a3b4c0f43c1a5ce25}{%
+           family={Zhong},
+           familyi={Z\bibinitperiod},
+           given={Yilu},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=729a602bde50ad419a03d1f350468a3c}{%
+           family={He},
+           familyi={H\bibinitperiod},
+           given={Chenhao},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0a4ba63e6839c4002684adee1cf06286}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Zichuan},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d14d813400632d1540675e5edb94d60a}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Jie},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c0b53fd93d067a8f581202324e598bc0}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Haoling},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8a6c1b8ad363e519ca566b7448585acb}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Zhaoxuan},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a47b430aa7431604681385f3f8e2485d}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Jiongchi},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9b1528d0b6c9bc88bfd8c569f290bcec}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Hui},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b7a01953210b558b4146902bc09d3564}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Dong},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ccc89366a146fb00742709de2a288ec4}
+      \strng{fullhash}{3b5896c48ecf3c71fb42abba7d550ecf}
+      \strng{fullhashraw}{3b5896c48ecf3c71fb42abba7d550ecf}
+      \strng{bibnamehash}{3b5896c48ecf3c71fb42abba7d550ecf}
+      \strng{authorbibnamehash}{3b5896c48ecf3c71fb42abba7d550ecf}
+      \strng{authornamehash}{ccc89366a146fb00742709de2a288ec4}
+      \strng{authorfullhash}{3b5896c48ecf3c71fb42abba7d550ecf}
+      \strng{authorfullhashraw}{3b5896c48ecf3c71fb42abba7d550ecf}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cs.SE}
+      \field{eprinttype}{arXiv}
+      \field{title}{A.S.E: A Repository-Level Benchmark for Evaluating Security in AI-Generated Code}
+      \field{year}{2025}
+      \verb{eprint}
+      \verb 2508.18106
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2508.18106
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2508.18106
+      \endverb
+    \endentry
+    \entry{liu2024ArtificialIntelligenceHumanPaired}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=5bd3aa9dacd0cdeac60c1700dee47a92}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Jiangyue},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ee93c6b66a4536e7744f612e440e8044}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Siran},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {SAGE Publications Inc}%
+      }
+      \strng{namehash}{f29bf1fc51e6e10610f7f1c82d72eb93}
+      \strng{fullhash}{f29bf1fc51e6e10610f7f1c82d72eb93}
+      \strng{fullhashraw}{f29bf1fc51e6e10610f7f1c82d72eb93}
+      \strng{bibnamehash}{f29bf1fc51e6e10610f7f1c82d72eb93}
+      \strng{authorbibnamehash}{f29bf1fc51e6e10610f7f1c82d72eb93}
+      \strng{authornamehash}{f29bf1fc51e6e10610f7f1c82d72eb93}
+      \strng{authorfullhash}{f29bf1fc51e6e10610f7f1c82d72eb93}
+      \strng{authorfullhashraw}{f29bf1fc51e6e10610f7f1c82d72eb93}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Pair Programming is considered an effective approach to programming education, but the synchronous collaboration of two programmers involves complex coordination, making this method difficult to be widely adopted in educational settings. Artificial Intelligence (AI) code-generation tools have outstanding capabilities in program generation and natural language understanding, creating conducive conditions for pairing with humans in programming. Now some more mature tools are gradually being implemented. This review summarizes the current status of educational applications and research on AI-assisted programming technology. Through thematic coding of literature, existing research focuses on five aspects: underlying technology and tool introduction, performance evaluation, the potential impacts and coping strategies, exploration of behavioral patterns in technological application, and ethical and safety issues. A systematic analysis of current literature provides the following insights for future academic research related to the practice of ``human-machine pairing'' in programming: (1) Affirming the value of AI code-generation tools while also clearly defining their technical limitations and ethical risks; (2) Developing adaptive teaching ecosystems and educational models, conducting comprehensive empirical research to explore the efficiency mechanisms of AI-human paired programming; (3) Further enriching the application of research methods by integrating speculative research with empirical research, combining traditional methods with emerging technologies.}
+      \field{issn}{0735-6331}
+      \field{journaltitle}{Journal of Educational Computing Research}
+      \field{langid}{english}
+      \field{month}{9}
+      \field{number}{5}
+      \field{shorttitle}{Toward {{Artificial Intelligence-Human Paired Programming}}}
+      \field{title}{Toward {{Artificial Intelligence-Human Paired Programming}}: {{A Review}} of the {{Educational Applications}} and {{Research}} on {{Artificial Intelligence Code-Generation Tools}}}
+      \field{urlday}{10}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{volume}{62}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \field{pages}{1165\bibrangedash 1195}
+      \range{pages}{31}
+      \verb{doi}
+      \verb 10.1177/07356331241240460
+      \endverb
+    \endentry
+    \entry{liu2023codegeneratedchatgptreally}{misc}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=fc2e625c86e0ea59d96b80abf60ba66b}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Jiawei},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ffe8b04c5c80790ca8aa4eb742b4a135}{%
+           family={Xia},
+           familyi={X\bibinitperiod},
+           given={Chunqiu\bibnamedelima Steven},
+           giveni={C\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=705df8980d81e4d3c0d23fb3f90fd995}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Yuyao},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d4bc38109c3bdedeccb478acb4c658b9}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Lingming},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8de81a500dd8766b90f31a78a97871a8}
+      \strng{fullhash}{266596bbdfbf6786d411125c9505f33f}
+      \strng{fullhashraw}{266596bbdfbf6786d411125c9505f33f}
+      \strng{bibnamehash}{266596bbdfbf6786d411125c9505f33f}
+      \strng{authorbibnamehash}{266596bbdfbf6786d411125c9505f33f}
+      \strng{authornamehash}{8de81a500dd8766b90f31a78a97871a8}
+      \strng{authorfullhash}{266596bbdfbf6786d411125c9505f33f}
+      \strng{authorfullhashraw}{266596bbdfbf6786d411125c9505f33f}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cs.SE}
+      \field{eprinttype}{arXiv}
+      \field{title}{Is Your Code Generated by ChatGPT Really Correct? Rigorous Evaluation of Large Language Models for Code Generation}
+      \field{year}{2023}
+      \verb{eprint}
+      \verb 2305.01210
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2305.01210
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2305.01210
+      \endverb
+    \endentry
+    \entry{sabra2025assessingqualitysecurityaigenerated}{misc}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=cf7ec55ef8dc4240a32e0c1112356724}{%
+           family={Sabra},
+           familyi={S\bibinitperiod},
+           given={Abbas},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=23277220ecf7495fedce48526c0e86cb}{%
+           family={Schmitt},
+           familyi={S\bibinitperiod},
+           given={Olivier},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=db4d318ac3adb1a2daf07455830dfa6a}{%
+           family={Tyler},
+           familyi={T\bibinitperiod},
+           given={Joseph},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0d3507b327884d2f23ea8ccb4131d7c0}
+      \strng{fullhash}{55faebc973be60ec003ea7893fb30bdb}
+      \strng{fullhashraw}{55faebc973be60ec003ea7893fb30bdb}
+      \strng{bibnamehash}{55faebc973be60ec003ea7893fb30bdb}
+      \strng{authorbibnamehash}{55faebc973be60ec003ea7893fb30bdb}
+      \strng{authornamehash}{0d3507b327884d2f23ea8ccb4131d7c0}
+      \strng{authorfullhash}{55faebc973be60ec003ea7893fb30bdb}
+      \strng{authorfullhashraw}{55faebc973be60ec003ea7893fb30bdb}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cs.SE}
+      \field{eprinttype}{arXiv}
+      \field{title}{Assessing the Quality and Security of AI-Generated Code: A Quantitative Analysis}
+      \field{year}{2025}
+      \verb{eprint}
+      \verb 2508.14727
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2508.14727
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2508.14727
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
