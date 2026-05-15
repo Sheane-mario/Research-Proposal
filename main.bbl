@@ -1,0 +1,608 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global/global}
+    \entry{comparative_analysis_lime_shap_interpreters_diabetes}{misc}{}{}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{url}
+      \field{labeltitlesource}{title}
+      \field{title}{A Comparative Analysis of LIME and SHAP Interpreters With Explainable ML-Based Diabetes Predictions}
+      \field{urlday}{14}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.diva-portal.org/smash/get/diva2:1886442/FULLTEXT02.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.diva-portal.org/smash/get/diva2:1886442/FULLTEXT02.pdf
+      \endverb
+    \endentry
+    \entry{comparative_analysis_lstm_gru_transformer_construction_cost}{misc}{}{}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{url}
+      \field{labeltitlesource}{title}
+      \field{title}{A comparative analysis of LSTM, GRU, and Transformer models for construction cost prediction with multidimensional feature integration}
+      \field{urlday}{14}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.tandfonline.com/doi/full/10.1080/13467581.2025.2455034
+      \endverb
+      \verb{url}
+      \verb https://www.tandfonline.com/doi/full/10.1080/13467581.2025.2455034
+      \endverb
+    \endentry
+    \entry{perspective_on_xai_methods_shap_and_lime}{misc}{}{}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cs.AI}
+      \field{eprinttype}{arXiv}
+      \field{title}{A Perspective on Explainable Artificial Intelligence Methods: SHAP and LIME}
+      \field{urlday}{14}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{eprint}
+      \verb 2305.02012
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/html/2305.02012v3
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/html/2305.02012v3
+      \endverb
+    \endentry
+    \entry{software_service_supporting_software_quality_forecasting}{misc}{}{}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{url}
+      \field{labeltitlesource}{title}
+      \field{title}{A software service supporting software quality forecasting}
+      \field{urlday}{14}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://upcommons.upc.edu/bitstreams/4d1b3444-87ae-4fb2-9434-9963feccf1e3/download
+      \endverb
+      \verb{url}
+      \verb https://upcommons.upc.edu/bitstreams/4d1b3444-87ae-4fb2-9434-9963feccf1e3/download
+      \endverb
+    \endentry
+    \entry{mord11a_continuous_weighted_metric_aggregation}{misc}{}{}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{url}
+      \field{labeltitlesource}{title}
+      \field{title}{An empirical model for continuous and weighted metric aggregation}
+      \field{urlday}{14}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://rmod-files.lille.inria.fr/Team/Texts/Papers/Mord11a-CSMR2011-Squale.pdf
+      \endverb
+      \verb{url}
+      \verb https://rmod-files.lille.inria.fr/Team/Texts/Papers/Mord11a-CSMR2011-Squale.pdf
+      \endverb
+    \endentry
+    \entry{beyond_perplexity_character_distribution_signatures_mdta}{misc}{}{}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cs.CL}
+      \field{eprinttype}{arXiv}
+      \field{title}{Beyond Perplexity: Character Distribution Signatures and the MDTA Benchmark for AI Text Detection}
+      \field{urlday}{14}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \verb{eprint}
+      \verb 2605.01647
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/html/2605.01647v1
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/html/2605.01647v1
+      \endverb
+    \endentry
+    \entry{centrality_in_networks_finding_most_important_nodes}{misc}{}{}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{url}
+      \field{labeltitlesource}{title}
+      \field{title}{Centrality in Networks: Finding the Most Important Nodes}
+      \field{urlday}{14}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://webs-deim.urv.cat/~sergio.gomez/papers/Gomez-Centrality_in_networks-Finding_the_most_important_nodes.pdf
+      \endverb
+      \verb{url}
+      \verb https://webs-deim.urv.cat/~sergio.gomez/papers/Gomez-Centrality_in_networks-Finding_the_most_important_nodes.pdf
+      \endverb
+    \endentry
+    \entry{coderabbit_ai_vs_human_code_generation_report}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9b809a6d5a01fe2c317b252623460f29}{%
+           family={{CodeRabbit}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{9b809a6d5a01fe2c317b252623460f29}
+      \strng{fullhash}{9b809a6d5a01fe2c317b252623460f29}
+      \strng{fullhashraw}{9b809a6d5a01fe2c317b252623460f29}
+      \strng{bibnamehash}{9b809a6d5a01fe2c317b252623460f29}
+      \strng{authorbibnamehash}{9b809a6d5a01fe2c317b252623460f29}
+      \strng{authornamehash}{9b809a6d5a01fe2c317b252623460f29}
+      \strng{authorfullhash}{9b809a6d5a01fe2c317b252623460f29}
+      \strng{authorfullhashraw}{9b809a6d5a01fe2c317b252623460f29}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{url}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{AI vs Human Code Gen Report: AI Code Creates 1.7x More Issues}
+      \field{urlday}{14}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.coderabbit.ai/blog/state-of-ai-vs-human-code-generation-report
+      \endverb
+      \verb{url}
+      \verb https://www.coderabbit.ai/blog/state-of-ai-vs-human-code-generation-report
+      \endverb
+    \endentry
+    \entry{comparing_explainable_ai_models_shap_lime_electric_field}{misc}{}{}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{url}
+      \field{labeltitlesource}{title}
+      \field{title}{Comparing Explainable AI Models: SHAP, LIME, and Their Role in Electric Field Strength Prediction over Urban Areas}
+      \field{urlday}{14}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.mdpi.com/2079-9292/14/23/4766
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/2079-9292/14/23/4766
+      \endverb
+    \endentry
+    \entry{computing_weighted_average_in_squale}{misc}{}{}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{url}
+      \field{labeltitlesource}{title}
+      \field{title}{Computing the weighted average in Squale (here $\lambda = 9$). First, points...}
+      \field{urlday}{14}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.researchgate.net/figure/Computing-the-weighted-average-in-Squale-here-l9-First-points-05-15-and-3_fig2_258316385
+      \endverb
+      \verb{url}
+      \verb https://www.researchgate.net/figure/Computing-the-weighted-average-in-Squale-here-l9-First-points-05-15-and-3_fig2_258316385
+      \endverb
+    \endentry
+    \entry{decompatchtst_hybrid_framework}{misc}{}{}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{title}{DecompPatchTST: A Hybrid Framework Fusing Learnable Polynomials and Patch Transformers for Time-Series Forecasting}
+      \field{urlday}{14}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.mdpi.com/2073-8994/18/3/516
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/2073-8994/18/3/516
+      \endverb
+    \endentry
+    \entry{diversity_boosts_ai_generated_text_detection}{misc}{}{}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{url}
+      \field{labeltitlesource}{title}
+      \field{title}{Diversity Boosts AI-Generated Text Detection}
+      \field{urlday}{14}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://openreview.net/forum?id=WscAU9It1l
+      \endverb
+      \verb{url}
+      \verb https://openreview.net/forum?id=WscAU9It1l
+      \endverb
+    \endentry
+    \entry{isoiec25010_quality_model_emergentmind}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7fc70d981d2d10e7aab71daa1ef326f8}{%
+           family={{Emergent Mind}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{7fc70d981d2d10e7aab71daa1ef326f8}
+      \strng{fullhash}{7fc70d981d2d10e7aab71daa1ef326f8}
+      \strng{fullhashraw}{7fc70d981d2d10e7aab71daa1ef326f8}
+      \strng{bibnamehash}{7fc70d981d2d10e7aab71daa1ef326f8}
+      \strng{authorbibnamehash}{7fc70d981d2d10e7aab71daa1ef326f8}
+      \strng{authornamehash}{7fc70d981d2d10e7aab71daa1ef326f8}
+      \strng{authorfullhash}{7fc70d981d2d10e7aab71daa1ef326f8}
+      \strng{authorfullhashraw}{7fc70d981d2d10e7aab71daa1ef326f8}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{url}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{ISO/IEC 25010 Quality Model}
+      \field{urlday}{14}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.emergentmind.com/topics/iso-iec-25010-quality-model
+      \endverb
+      \verb{url}
+      \verb https://www.emergentmind.com/topics/iso-iec-25010-quality-model
+      \endverb
+    \endentry
+    \entry{excode_robust_explainable_model_detect_ai_generated_code}{misc}{}{}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{title}{EX-CODE: A Robust and Explainable Model to Detect AI-Generated Code}
+      \field{urlday}{14}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.mdpi.com/2078-2489/15/12/819
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/2078-2489/15/12/819
+      \endverb
+    \endentry
+    \entry{fault_prediction_software_metrics_sonarqube_rules}{misc}{}{}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cs.SE}
+      \field{eprinttype}{arXiv}
+      \field{title}{Fault Prediction based on Software Metrics and SonarQube Rules. Machine or Deep Learning?}
+      \field{urlday}{14}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \verb{eprint}
+      \verb 2103.11321
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2103.11321
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2103.11321
+      \endverb
+    \endentry
+    \entry{normalize_data_between_0_and_100}{misc}{}{}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{url}
+      \field{labeltitlesource}{title}
+      \field{title}{How to Normalize Data Between 0 and 100}
+      \field{urlday}{14}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.statology.org/normalize-data-between-0-and-100/
+      \endverb
+      \verb{url}
+      \verb https://www.statology.org/normalize-data-between-0-and-100/
+      \endverb
+    \endentry
+    \entry{human_written_vs_ai_generated_code_2025}{misc}{}{}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cs.SE}
+      \field{eprinttype}{arXiv}
+      \field{title}{Human-Written vs. AI-Generated Code: A Large-Scale Study of Defects, Vulnerabilities, and Complexity}
+      \field{urlday}{14}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{eprint}
+      \verb 2508.21634
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2508.21634
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2508.21634
+      \endverb
+    \endentry
+    \entry{min_max_and_z_score_normalization}{misc}{}{}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{url}
+      \field{labeltitlesource}{title}
+      \field{title}{Min-Max and Z-Score Normalization}
+      \field{urlday}{14}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.codecademy.com/article/min-max-zscore-normalization
+      \endverb
+      \verb{url}
+      \verb https://www.codecademy.com/article/min-max-zscore-normalization
+      \endverb
+    \endentry
+    \entry{developers_self_declaration_ai_generated_code}{misc}{}{}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cs.SE}
+      \field{eprinttype}{arXiv}
+      \field{title}{On Developers' Self-Declaration of AI-Generated Code: An Analysis of Practices}
+      \field{urlday}{14}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{eprint}
+      \verb 2504.16485
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/html/2504.16485v1
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/html/2504.16485v1
+      \endverb
+    \endentry
+    \entry{patchtst_nixtla}{misc}{}{}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{url}
+      \field{labeltitlesource}{title}
+      \field{title}{PatchTST - Nixtla - Nixtlaverse}
+      \field{urlday}{14}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://nixtlaverse.nixtla.io/neuralforecast/models.patchtst.html
+      \endverb
+      \verb{url}
+      \verb https://nixtlaverse.nixtla.io/neuralforecast/models.patchtst.html
+      \endverb
+    \endentry
+    \entry{software_quality_metrics_aggregation_industry}{misc}{}{}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{url}
+      \field{labeltitlesource}{title}
+      \field{title}{Software quality metrics aggregation in industry}
+      \field{urlday}{14}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://cmustrudel.github.io/papers/smr1558.pdf
+      \endverb
+      \verb{url}
+      \verb https://cmustrudel.github.io/papers/smr1558.pdf
+      \endverb
+    \endentry
+    \entry{sonarqube_metrics_definition}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=613a509c0f3517ba4012a7935077b773}{%
+           family={{SonarSource}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{613a509c0f3517ba4012a7935077b773}
+      \strng{fullhash}{613a509c0f3517ba4012a7935077b773}
+      \strng{fullhashraw}{613a509c0f3517ba4012a7935077b773}
+      \strng{bibnamehash}{613a509c0f3517ba4012a7935077b773}
+      \strng{authorbibnamehash}{613a509c0f3517ba4012a7935077b773}
+      \strng{authornamehash}{613a509c0f3517ba4012a7935077b773}
+      \strng{authorfullhash}{613a509c0f3517ba4012a7935077b773}
+      \strng{authorfullhashraw}{613a509c0f3517ba4012a7935077b773}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{url}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Understanding measures and metrics | SonarQube Server - Sonar Documentation}
+      \field{urlday}{14}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://docs.sonarsource.com/sonarqube-server/user-guide/code-metrics/metrics-definition
+      \endverb
+      \verb{url}
+      \verb https://docs.sonarsource.com/sonarqube-server/user-guide/code-metrics/metrics-definition
+      \endverb
+    \endentry
+    \entry{explainability_testing_ai_shap_lime_testriq}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c09de6439e05ac24eb908b8b06c7ca3a}{%
+           family={{Testriq}},
+           familyi={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{c09de6439e05ac24eb908b8b06c7ca3a}
+      \strng{fullhash}{c09de6439e05ac24eb908b8b06c7ca3a}
+      \strng{fullhashraw}{c09de6439e05ac24eb908b8b06c7ca3a}
+      \strng{bibnamehash}{c09de6439e05ac24eb908b8b06c7ca3a}
+      \strng{authorbibnamehash}{c09de6439e05ac24eb908b8b06c7ca3a}
+      \strng{authornamehash}{c09de6439e05ac24eb908b8b06c7ca3a}
+      \strng{authorfullhash}{c09de6439e05ac24eb908b8b06c7ca3a}
+      \strng{authorfullhashraw}{c09de6439e05ac24eb908b8b06c7ca3a}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{url}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Explainability Testing in AI: SHAP, LIME \& Interpretability Toolkits}
+      \field{urlday}{14}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.testriq.com/blog/post/explainability-testing-in-ai
+      \endverb
+      \verb{url}
+      \verb https://www.testriq.com/blog/post/explainability-testing-in-ai
+      \endverb
+    \endentry
+    \entry{quamoco_product_quality_modelling_assessment}{misc}{}{}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{title}{The Quamoco Product Quality Modelling and Assessment Approach}
+      \field{urlday}{14}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{year}{2012}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://teamscale.com/hubfs/26978363/Publications/2012-the-quamoco-product-quality-modelling-and-assessment-approach.pdf
+      \endverb
+      \verb{url}
+      \verb https://teamscale.com/hubfs/26978363/Publications/2012-the-quamoco-product-quality-modelling-and-assessment-approach.pdf
+      \endverb
+    \endentry
+    \entry{squale_model_practice_based_industrial_quality_model}{misc}{}{}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{title}{The Squale Model - A Practice-based Industrial Quality Model}
+      \field{urlday}{14}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{year}{2009}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://rmod-files.lille.inria.fr/Team/Texts/Papers/Mord09b-TechReport-Squale.pdf
+      \endverb
+      \verb{url}
+      \verb https://rmod-files.lille.inria.fr/Team/Texts/Papers/Mord09b-TechReport-Squale.pdf
+      \endverb
+    \endentry
+    \entry{relative_code_churn_defect_density}{misc}{}{}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{title}{Use of Relative Code Churn Measures to Predict System Defect Density}
+      \field{urlday}{14}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{year}{2005}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/icse05churn.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/icse05churn.pdf
+      \endverb
+    \endentry
+    \entry{why_ai_generated_text_detection_fails}{misc}{}{}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cs.CL}
+      \field{eprinttype}{arXiv}
+      \field{title}{Why AI-Generated Text Detection Fails: Evidence from Explainable AI Beyond Benchmark Accuracy}
+      \field{urlday}{14}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \verb{eprint}
+      \verb 2603.23146
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/html/2603.23146v2
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/html/2603.23146v2
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

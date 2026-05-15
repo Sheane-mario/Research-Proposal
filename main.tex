@@ -1,0 +1,111 @@
+\documentclass[12pt, a4paper]{report} % Use 'report' for chapters
+
+% 1. Encoding and Fonts
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+
+% 2. Strict Margin Requirements 
+\usepackage[left=1.5in, right=1in, top=1.5in, bottom=1in]{geometry}
+
+% 3. Line Spacing (standard for LRs)
+\renewcommand{\baselinestretch}{1.5}
+
+% 4. Hyperlinks for clickable references
+\usepackage[
+    bookmarks = true,
+    bookmarksopen = true,
+    bookmarksnumbered = true,
+    breaklinks = true,  % Ensure links can break across lines
+    hidelinks           % Remove highlighting from links
+]{hyperref}
+
+\hypersetup{
+    pdftitle = {Towards a Multidimensional Composite Quality Index for AI-Generated Codebases},
+    pdfauthor = {Sheane Mario Silva, Praneesh Surendran, R.M.I.M. De Silva},
+    pdfsubject = {},
+    pdfkeywords = {Keywords}    
+}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\IfFileExists{acronym.sty}{
+    \usepackage{acronym}
+}{
+    % Fallback so document can compile on minimal TeX installations.
+    \newenvironment{acronym}{\begin{description}}{\end{description}}
+    \newcommand{\acro}[2]{\item[\textbf{##1}] ##2}
+}
+
+% 5. Harvard Referencing Setup 
+\newif\ifusebiblatex
+\IfFileExists{biblatex.sty}{
+    \usebiblatextrue
+    \usepackage[
+        backend=biber,
+        style=authoryear,
+        maxcitenames=2,
+        mincitenames=1,
+        maxbibnames=99,
+        giveninits=true,
+        uniquename=init,
+        uniquelist=false,
+        dashed=false
+    ]{biblatex}
+    \renewcommand{\nameyeardelim}{\addcomma\space}
+    \DeclareDelimFormat{multinamedelim}{\addspace and\space}
+    \DeclareDelimFormat{finalnamedelim}{\addspace and\space}
+    \DefineBibliographyStrings{english}{%
+      andothers = {\textit{et al.}},
+    }
+    \addbibresource{references.bib}
+}{
+    \usebiblatexfalse
+    % Fallback citation commands and references section when biblatex is missing.
+    \providecommand{\parencite}[1]{(citation)}
+    \providecommand{\textcite}[1]{Citation}
+    \providecommand{\autocite}[1]{(citation)}
+    \newcommand{\printbibliography}[1][]{%
+        \chapter*{References}
+        \addcontentsline{toc}{chapter}{References}
+        Bibliography package \texttt{biblatex} is not available in this TeX setup.%
+    }
+}
+
+\begin{document}
+    % --- Front Matter (Roman Numerals) ---
+    \hypersetup{pageanchor=false}
+    \input{sections/frontmatter} % Your university title/declaration file
+    \clearpage
+    \pagenumbering{roman}
+    \setcounter{page}{1}
+
+    %\chapter*{Acknowledgement}
+    %\input{sections/acknowledgement.tex}
+
+    \chapter*{List of Acronyms}
+    \addcontentsline{toc}{chapter}{List of Acronyms}
+    \input{sections/acronym}
+
+    %\chapter*{Abstract}
+    %\addcontentsline{toc}{chapter}{Abstract}
+    %\input{sections/abstract.tex}
+
+    \tableofcontents
+    \newpage
+
+    % --- Main Content (Arabic Numerals) ---
+    \hypersetup{pageanchor=true}
+    \pagenumbering{arabic} % [cite: 88]
+    \chapter{Introduction}
+    \input{sections/intro}
+
+    \chapter{Literature Review}
+    \input{sections/literature_review}
+
+    \chapter{Research Objectives / Questions}
+    \input{sections/research_objectives_questions}
+
+    % --- Bibliography ---
+    \newpage
+    \printbibliography
+
+\end{document}
