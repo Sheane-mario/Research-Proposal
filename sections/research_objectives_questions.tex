@@ -1,6 +1,6 @@
 \section{Research Objectives and Questions}
 
-The primary overarching objective of this research is to conceptualize, rigorously design, and theoretically evaluate \textbf{Deltx}, a novel system architecture that seamlessly integrates comprehensive static code analysis with AI detection and state-of-the-art predictive modeling. To systematically address the gaps identified in the literature, this project is decomposed into the following specific research objectives:
+The primary overarching objective of this research is to conceptualize, design, and theoretically evaluate \textbf{Deltx}, a novel architecture integrating static code analysis, AI detection, and predictive modeling. To systematically address the gaps identified in the literature, this project is decomposed into the following specific research objectives:
 
 \subsection{Research Objectives}
 
@@ -8,15 +8,15 @@ The primary overarching objective of this research is to conceptualize, rigorous
     
     \item \textbf{AI Code Detection Methodology}
     
-    To define and operationalize an advanced \textbf{AI Code Detection} methodology that utilizes structural unpredictability, entropy variance, and stylometric feature distributions \parencite{beyond_perplexity_character_distribution_signatures_mdta} to accurately estimate the proportion of AI-generated code within a repository commit. Advanced detection frameworks such as EX-CODE \parencite{excode_robust_explainable_model_detect_ai_generated_code} provide evidence that robust AI detection must combine multiple probabilistic signals \parencite{diversity_boosts_ai_generated_text_detection}.
+    To define and operationalize an advanced \textbf{AI Code Detection} methodology that utilizes structural unpredictability, entropy variance, and stylometric feature distributions \parencite{beyond_perplexity_character_distribution_signatures_mdta} to accurately estimate the proportion of AI-generated code within a repository commit.
     
     \item \textbf{Quality Mapping and Weighting Mechanism}
     
-    To formulate a mathematically rigorous mapping and weighting mechanism that translates granular SonarQube rule violations \parencite{sonarqube_metrics_definition} into four primary \textbf{ISO/IEC 25010 dimensions} \parencite{isoiec25010_quality_model_emergentmind} (Maintainability, Correctness, Security, Efficiency), explicitly factoring in issue severity, occurrence frequency, code churn \parencite{relative_code_churn_defect_density}, and call-graph centrality \parencite{centrality_in_networks_finding_most_important_nodes}.
+    To formulate a mapping and weighting mechanism that translates granular SonarQube rule violations \parencite{sonarqube_metrics_definition} into four primary \textbf{ISO/IEC 25010 dimensions} \parencite{isoiec25010_quality_model_emergentmind} (Maintainability, Correctness, Security, Efficiency), explicitly factoring in issue severity, occurrence frequency, code churn \parencite{relative_code_churn_defect_density}, and call-graph centrality \parencite{centrality_in_networks_finding_most_important_nodes}.
     
     \item \textbf{Conflict-Resistant Quality Scoring System}
     
-    To engineer a conflict-resistant \textbf{Quality Scoring System}, heavily inspired by hierarchical frameworks like the Squale model \parencite{squale_model_practice_based_industrial_quality_model, computing_weighted_average_in_squale}, that computes normalized \parencite{min_max_and_z_score_normalization}, standardized scores on a 0--100 scale \parencite{normalize_data_between_0_and_100} for each overarching quality dimension, with explicit penalization of outliers \parencite{mord11a_continuous_weighted_metric_aggregation}.
+    To engineer a conflict-resistant \textbf{Quality Scoring System}, inspired by hierarchical frameworks like the Squale model \parencite{squale_model_practice_based_industrial_quality_model, computing_weighted_average_in_squale}, that computes normalized scores on a 0--100 scale \parencite{min_max_and_z_score_normalization, normalize_data_between_0_and_100} for each overarching quality dimension, with explicit penalization of outliers \parencite{mord11a_continuous_weighted_metric_aggregation}.
     
     \item \textbf{PatchTST-Based Predictive Modeling Engine}
     
@@ -30,4 +30,4 @@ The primary overarching objective of this research is to conceptualize, rigorous
 
 \vspace{0.5cm}
 
-These objectives are strategically interdependent, with each component contributing to the holistic goal of transforming static, retrospective code analysis into a proactive, interpretable, and predictive quality governance framework.
+These objectives are interdependent, collectively transforming static code analysis into a proactive, interpretable quality governance framework.
