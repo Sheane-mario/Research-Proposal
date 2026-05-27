@@ -1,13 +1,13 @@
 # Fdb version 4
-["biber main"] 1778837293.33193 "main.bcf" "main.bbl" "main" 1778838055.99272 0
-  "main.bcf" 1778838055 113220 597763ae197f02652429cd63cb201679 "pdflatex"
+["biber main"] 1778837293.33193 "main.bcf" "main.bbl" "main" 1779878809.5004 0
+  "main.bcf" 1779878809 113220 597763ae197f02652429cd63cb201679 "pdflatex"
   "references.bib" 1778837232 17683 adaa9c40b679169bb3d46f37356822d2 ""
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1778838054.60313 "d:/UCSC/4th_year_sem_1/Research proposal/Proposal/Proposal/main.tex" "main.pdf" "main" 1778838055.99347 0
-  "C:/Users/shean/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1777091146 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
+["pdflatex"] 1779878808.11626 "d:/UCSC/4th_year_sem_1/Research proposal/Proposal/Proposal/main.tex" "main.pdf" "main" 1779878809.50096 0
+  "C:/Users/shean/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1779164329 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/shean/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1200.pk" 1769852083 31952 fa6a89812d4ead1f4d29add558808764 ""
   "C:/Users/shean/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1440.pk" 1770371740 40136 86c6ef59ae5d228d1449ff7af544a9a2 ""
   "C:/Users/shean/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1728.pk" 1769852084 49100 2ac1425fd9edf6efd185590629d05c67 ""
@@ -111,17 +111,18 @@
   "C:/Users/shean/AppData/Local/Programs/MiKTeX/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1751104012 9684 a33a14b82ce60d6e77cb9be689d79ee6 ""
   "C:/Users/shean/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/shean/AppData/Local/Programs/MiKTeX/tex/latex/xstring/xstring.sty" 1693735632 123 a302f2c651a95033260db60e51527ae8 ""
-  "d:/UCSC/4th_year_sem_1/Research proposal/Proposal/Proposal/main.tex" 1778837289 3217 a594e0e639003edcc64cea023c00691e ""
-  "main.aux" 1778838055 13614 38eddf0c0864b7cc7bbe7bf470ab0923 "pdflatex"
+  "d:/UCSC/4th_year_sem_1/Research proposal/Proposal/Proposal/main.tex" 1779878800 3285 51db9ba57f29b0e0bdbd8ce5805c6354 ""
+  "main.aux" 1779878809 13807 0de573921500d36f7f230337f154f44d "pdflatex"
   "main.bbl" 1778837369 23921 6e2a48b8aa4e1f2daa83839fcb28de4b "biber main"
-  "main.out" 1778838055 2240 85fded347cf333b1b6b677fedf9ae92a "pdflatex"
-  "main.run.xml" 1778838055 2311 e66a0e3ff336a5af941c7fe634558519 "pdflatex"
-  "main.tex" 1778837289 3217 a594e0e639003edcc64cea023c00691e ""
-  "main.toc" 1778838055 923 561afd5e5a6b49db671b25c88d2c64c1 "pdflatex"
+  "main.out" 1779878809 2394 3902f5dd22948b4d2cba9977e5bb1407 "pdflatex"
+  "main.run.xml" 1779878809 2311 e66a0e3ff336a5af941c7fe634558519 "pdflatex"
+  "main.tex" 1779878800 3285 51db9ba57f29b0e0bdbd8ce5805c6354 ""
+  "main.toc" 1779878809 999 a9f1fe9c139bc00bb43adabb96b59277 "pdflatex"
   "sections/acronym.tex" 1778837232 848 f575f378abffd3804db92e95e82e531e ""
   "sections/frontmatter.tex" 1778837232 746 0f5b98034096800b2d97e9535db4aef9 ""
   "sections/intro.tex" 1778837992 7297 dd1b2a6bff43d4f311409b21d8c6d2c4 ""
   "sections/literature_review.tex" 1778838052 6698 94e455f881b902c8a57eafe71f26d19f ""
+  "sections/methodology.tex" 1779878769 0 d41d8cd98f00b204e9800998ecf8427e ""
   "sections/research_objectives_questions.tex" 1778837232 3645 a7c9fe5ea820c478ed18b18a31cfd195 ""
   "ucsc.png" 1778837232 27877 16e115ab1263912804c68985559e2d19 ""
   (generated)

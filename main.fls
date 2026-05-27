@@ -229,6 +229,11 @@ INPUT .\sections\research_objectives_questions.tex
 INPUT .\sections\research_objectives_questions.tex
 INPUT .\sections\research_objectives_questions.tex
 INPUT sections\research_objectives_questions.tex
+INPUT .\sections\methodology.tex
+INPUT .\sections\methodology.tex
+INPUT .\sections\methodology.tex
+INPUT .\sections\methodology.tex
+INPUT sections\methodology.tex
 INPUT C:\Users\shean\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\eccc1200.tfm
 INPUT C:\Users\shean\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ectt1200.tfm
 INPUT main.aux

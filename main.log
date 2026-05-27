@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.31)  15 MAY 2026 15:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.31)  27 MAY 2026 16:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -571,7 +571,7 @@ Package biblatex Info: Reference section=0 on input line 73.
 Package biblatex Info: Reference segment=0 on input line 73.
 Package hyperref Info: Option `pageanchor' set `false' on input line 75.
  (sections/frontmatter.tex
-<ucsc.png, id=47, 281.05pt x 281.05pt>
+<ucsc.png, id=51, 281.05pt x 281.05pt>
 File: ucsc.png Graphic file (type png)
 <use ucsc.png>
 Package pdftex.def Info: ucsc.png  used on input line 20.
@@ -724,53 +724,57 @@ Overfull \hbox (5.53754pt too wide) in paragraph at lines 27--28
  []
 
 [10]) [11]
-Overfull \hbox (10.24243pt too wide) in paragraph at lines 110--110
+Chapter 4.
+(sections/methodology.tex) [12
+
+]
+Overfull \hbox (10.24243pt too wide) in paragraph at lines 113--113
 \T1/cmtt/m/n/12 upcommons . upc . edu / bitstreams / 4d1b3444 -[] 87ae -[] 4fb2 -[] 9434 -[] 9963feccf1e3 /
  []
 
 
-Overfull \hbox (4.14076pt too wide) in paragraph at lines 110--110
+Overfull \hbox (4.14076pt too wide) in paragraph at lines 113--113
 \T1/cmtt/m/n/12 networks -[] Finding _ the _ most _ important _ nodes . pdf$[] \T1/cmr/m/n/12 (vis-ited on 05/14/2026). 
  []
 
-[12
+[13
 
 ]
-Overfull \hbox (0.28506pt too wide) in paragraph at lines 110--110
+Overfull \hbox (0.28506pt too wide) in paragraph at lines 113--113
 [][]\T1/cmr/m/it/12 Diversity Boosts AI-Generated Text De-tec-tion \T1/cmr/m/n/12 (2026). \T1/cmr/m/sc/12 url\T1/cmr/m/n/12 : []$\T1/cmtt/m/n/12 https : / / openreview .
  []
 
 
-Overfull \hbox (0.12325pt too wide) in paragraph at lines 110--110
+Overfull \hbox (0.12325pt too wide) in paragraph at lines 113--113
 \T1/cmr/m/sc/12 url\T1/cmr/m/n/12 : []$\T1/cmtt/m/n/12 https : / / www . mdpi . com / 2078 -[] 2489 / 15 / 12 / 819$[] \T1/cmr/m/n/12 (vis-ited on 05/14/2026). 
  []
 
 
-Overfull \hbox (3.55374pt too wide) in paragraph at lines 110--110
+Overfull \hbox (3.55374pt too wide) in paragraph at lines 113--113
 [][]\T1/cmr/m/it/12 How to Nor-mal-ize Data Be-tween 0 and 100 \T1/cmr/m/n/12 (2026). \T1/cmr/m/sc/12 url\T1/cmr/m/n/12 : []$\T1/cmtt/m/n/12 https : / / www . statology .
  []
 
-[13]
-Overfull \hbox (9.13019pt too wide) in paragraph at lines 110--110
+[14]
+Overfull \hbox (9.13019pt too wide) in paragraph at lines 113--113
 [][]\T1/cmr/m/it/12 Software qual-ity met-rics ag-gre-ga-tion in in-dus-try \T1/cmr/m/n/12 (2026). \T1/cmr/m/sc/12 url\T1/cmr/m/n/12 : []$\T1/cmtt/m/n/12 https : / / cmustrudel .
  []
 
 
-Overfull \hbox (29.83473pt too wide) in paragraph at lines 110--110
+Overfull \hbox (29.83473pt too wide) in paragraph at lines 113--113
 \T1/cmtt/m/n/12 server / user -[] guide / code -[] metrics / metrics -[] definition$[] \T1/cmr/m/n/12 (vis-ited on 05/14/2026). 
  []
 
 
-Overfull \hbox (0.87543pt too wide) in paragraph at lines 110--110
+Overfull \hbox (0.87543pt too wide) in paragraph at lines 113--113
 [][]\T1/cmr/m/n/12 Testriq (2026). \T1/cmr/m/it/12 Ex-plain-abil-ity Test-ing in AI: SHAP, LIME & In-ter-pretabil-ity Toolk-
  []
 
 
-Overfull \hbox (3.56894pt too wide) in paragraph at lines 110--110
+Overfull \hbox (3.56894pt too wide) in paragraph at lines 113--113
 \T1/cmtt/m/n/12 / / rmod -[] files . lille . inria . fr / Team / Texts / Papers / Mord09b -[] TechReport -[]
  []
 
-[14] (main.aux)
+[15] (main.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
@@ -780,23 +784,23 @@ L3 programming layer <2026-01-19>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 85FDED347CF333B1B6B677FEDF9AE92A;2240.
+(rerunfilecheck)             Checksum: 3902F5DD22948B4D2CBA9977E5BB1407;2394.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 18123 strings out of 467866
- 319730 string characters out of 5418319
+ 18134 strings out of 467866
+ 320037 string characters out of 5418319
  1169480 words of memory out of 5000000
- 46732 multiletter control sequences out of 15000+600000
+ 46738 multiletter control sequences out of 15000+600000
  640527 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,6n,79p,1266b,1524s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\shean\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk> <C:\Users\shean\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1200.pk> <C:\Users\shean\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\shean\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\shean\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\shean\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\shean\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk> <C:\Users\shean\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\shean\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\shean\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2074.pk><C:/Users/shean/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/shean/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on main.pdf (17 pages, 294277 bytes).
+Output written on main.pdf (18 pages, 297248 bytes).
 PDF statistics:
- 867 PDF objects out of 1000 (max. 8388607)
- 80 named destinations out of 1000 (max. 500000)
- 94 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 880 PDF objects out of 1000 (max. 8388607)
+ 82 named destinations out of 1000 (max. 500000)
+ 102 words of extra memory for PDF output out of 10000 (max. 10000000)
 
