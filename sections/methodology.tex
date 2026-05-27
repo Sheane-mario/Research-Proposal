@@ -1,0 +1,41 @@
+For our methodology, we are structuring the Deltx platform through a multi-layered approach that moves from basic data ingestion all the way to deep learning forecasting and human-readable interpretation. To keep the scope manageable and consistent, our implementation will focus exclusively on Python repositories.
+
+\section{System Architecture Overview}
+
+Basically, Deltx will act as an intelligent layer sitting directly on top of a standard SonarQube\footnote{SonarQube is a widely using static analysis tool in the software industry} deployment. The architecture is broken down into five main decoupled modules: a feature extraction pipeline, an asynchronous AI code detection module, a quality aggregation engine, a prediction engine, and finally, the interpretation layer.
+
+\section{AI Code Detection Methodology}
+
+Our detection methodology treats AI authorship as a probabilistic signal rooted directly in Large Language Model (LLM) generation mechanics. Because LLMs generate code by continuously maximizing token likelihoods, they leave a distinct, quantifiable statistical signature. We will utilize advanced log-probability-based approaches, such as Min-K\%\footnote{Min-K\% Prob and Tag\&Tab are Pre-training data detection techniques} Prob and Tag\&Tab. By analyzing the log-rank and token likelihood distributions of the code segments, our system can effectively isolate these statistical signatures, allowing us to accurately estimate the percentage of AI-generated code in any given commit without relying on rigid, deterministic rules.
+
+\section{Bug Categorization and ISO Mapping Model}
+
+SonarQube gives us large number of raw, granular rules, but there is a massive semantic gap between those and actual business risk. To be more precise, our objective is instead of indicating x number of warning categorized according to the severity, convey the message to the developer that "security quality dropped by y\%" for instance. We are mapping these metrics directly to four core ISO/IEC\footnote{ISO/IEC 25010 is a software quality model} 25010 dimensions: Maintainability, Correctness, Security, and Efficiency. Rather than just counting bugs, we are weighting every single issue dynamically. These weight factors depends on the issue's severity, its frequency, and most importantly, its call-graph centrality. Which means a vulnerability in a core routing module is heavily penalized compared to an issue in a random testing script.
+
+\section{Quality Scoring System}
+
+This will be our quality index module. Once the issues are mapped and weighted, we normalize them to compute a standardized score from 0 to 100 for each of the four dimensions. A commit may be very good in readability, maintainability but has a very small catastrophic security vulnerability, so the overall score should be heavily penalized based on the severity of that vulnerability. To handle these conflicting situations, we will be using a non-linear aggregation strategy inspired by the \textbf{SQUALE}\footnote{SQUALE is a software quality assessment model used in tools like SonarQube} model. This ensures that a single, \textbf{critical security} flaw will drastically drag down the overall system score, preventing it from being masked by thousands of lines of perfectly formatted code.
+
+\section{Predictive Modeling Engine}
+
+The core novelty of our research is shifting from point-in-time retrospective analysis to actual multivariate time-series forecasting. We will be using a state-of-the-art Transformer architecture called \textbf{PatchTST}\footnote{PatchTST is a transformer based architecture for time-series forecasting} to process historical SonarQube metrics, code churn rates, and our AI-generation percentages. This model will predict the trajectory of the software's quality across future commits, giving engineering teams a proactive heads-up before technical debt gets out of control.  
+
+We will not be analyzing code semantics; we will be forecasting the evolution of software health through statistically meaningful, time-aligned quality indicators.
+
+\section{Interpretation Layer and Explainability}
+
+A predictive model is useless if developers do not trust it. To fix the "black-box" problem, we are integrating an Explainable AI (XAI) framework using \textbf{SHAP}\footnote{SHAP (SHapley Additive exPlanations) is a powerful framework for interpreting machine learning models}. If our model predicts a massive drop in maintainability over the next ten commits, this layer will translate that forecast into a human-readable insight, pinpointing exactly which historical metrics or influxes of AI code are driving that specific decay.
+
+\section{Dataset Design and Strategy}
+
+To train our PatchTST predictive engine, we require a massive, temporally dense dataset. Because existing empirical datasets do not track AI authorship alongside continuous code quality metrics, we will construct this specialized dataset from the ground up using a chronological data-mining approach.
+
+We will start by selecting a set of sufficiently large, mature \textbf{open-source Python repositories} that possess a deep and extensive commit history. For every single repository, our automated pipeline will sequentially check out the codebase at discrete time intervals; starting right from the repository's initialization.
+
+Upon each checkout, two core processes will run to build a single, comprehensive data row:
+
+\begin{itemize}
+    \item \textbf{Authorship Analysis:} We will run our probabilistic AI code detection module across the codebase to calculate the precise percentage of AI-generated code present at that specific timestep. 
+    \item \textbf{Quality Extraction:} Concurrently, we will execute a SonarQube scan to pull the structural metrics, capturing all existing bugs, vulnerabilities, code smells, and technical debt. 
+
+\end{itemize}

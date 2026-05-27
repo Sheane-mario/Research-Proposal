@@ -1,0 +1,19 @@
+To validate the reliability and operational success of the Deltx platform, our evaluation strategy will be focusing on the three main layers of our system.
+
+\section{AI Code Detection Evaluation}
+
+Since our AI detection module relies on likelihood and log-probability-based approaches, we will evaluate its performance against a baseline dataset containing known mixtures of human-written and LLM-generated Python code. We will quantitatively measure its accuracy using standard classification metrics: Precision, Recall, and the F1-Score. Our target is to achieve a baseline that aligns with modern state-of-the-art probabilistic detectors.
+
+\section{Predictive Modeling Accuracy}
+
+The core forecasting capability of our PatchTST engine will be evaluated using standard statistical time-series metrics. We will utilize \textbf{Mean Absolute Error (MAE)} to measure the average deviation of our predicted 0-100 quality scores from the actual scores. Additionally, we will calculate the \textbf{Root Mean Square Error (RMSE)} to penalize larger, catastrophic forecasting errors—such as predicting a highly stable codebase when a major quality drop can be observed.
+
+\section{Explainability and Practical Usefulness}
+
+Because our predictive model operates strictly within a metric space—analyzing time-series trends of quality scores, AI percentages, and codebase churn—our interpretation layer will focus specifically on temporal and metric feature attribution using SHAP.
+
+Specifically, we evaluate whether the explainability layer can identify the most influential historical time windows and associated metric shifts that contributed to the forecasted decline.
+
+For example, a predicted drop in Maintainability may be attributed to a combination of increased cognitive complexity and elevated AI-generated code proportion occurring within a specific commit window, which the model identifies as having the strongest influence on the forecast. 
+
+For the evaluation of this layer, we will be using \textbf{human expert validation}, where experienced software engineers will assess the relevance and accuracy of the SHAP explanations in relation to the actual code changes and quality metrics observed in the historical data.
