@@ -17,6 +17,7 @@ Current static analysis tools process all source code uniformly and fails to dis
 
 SonarQube generates granular rule-based outputs (cyclomatic complexity, code smells, debt ratios) \parencite{sonarqube_metrics_definition}. However, there is a distinct semantic gap between these raw, disjointed metrics and high-level business risk frameworks. TConverting raw software metrics into balanced and meaningful quality dimensions such as Correctness, Maintainability, Security, and Efficiency, remains an unsolved architectural challenge. Existing aggregation approaches often struggle to handle conflicting signals effectively, where a large number of minor formatting issues can end up outweighing a single critical security vulnerability in the overall evaluation. \parencite{software_quality_metrics_aggregation_industry}.
 
+
 \subsubsection*{Issue 3: Retrospective Nature of Static Analysis}
 
 Platforms like SonarQube provide point-in-time snapshots of codebase health but lack time-series forecasting capability to predict how code quality will evolve across future commits \parencite{sonarcommunity_historical_data}. Without this capability, engineering teams are forced to a reactive posture that addresses debt only after it breaches critical thresholds, rather than proactively managing codebase health based on predicted degradation \parencite{software_service_supporting_software_quality_forecasting}.

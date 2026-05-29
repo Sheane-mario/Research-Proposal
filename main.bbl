@@ -489,6 +489,38 @@
       \verb https://docs.sonarsource.com/sonarqube-server/user-guide/code-metrics/metrics-definition
       \endverb
     \endentry
+    \entry{sonarcommunity_historical_data}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e56c1566409cd0942e4171c89d3c360c}{%
+           family={{SonarSource Community}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{e56c1566409cd0942e4171c89d3c360c}
+      \strng{fullhash}{e56c1566409cd0942e4171c89d3c360c}
+      \strng{fullhashraw}{e56c1566409cd0942e4171c89d3c360c}
+      \strng{bibnamehash}{e56c1566409cd0942e4171c89d3c360c}
+      \strng{authorbibnamehash}{e56c1566409cd0942e4171c89d3c360c}
+      \strng{authornamehash}{e56c1566409cd0942e4171c89d3c360c}
+      \strng{authorfullhash}{e56c1566409cd0942e4171c89d3c360c}
+      \strng{authorfullhashraw}{e56c1566409cd0942e4171c89d3c360c}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{url}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Have SonarQube Create Historical Data}
+      \field{urlday}{14}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://community.sonarsource.com/t/have-sonarqube-create-historical-data/60492
+      \endverb
+      \verb{url}
+      \verb https://community.sonarsource.com/t/have-sonarqube-create-historical-data/60492
+      \endverb
+    \endentry
     \entry{explainability_testing_ai_shap_lime_testriq}{online}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=c09de6439e05ac24eb908b8b06c7ca3a}{%
