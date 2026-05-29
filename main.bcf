@@ -2380,9 +2380,9 @@
     <bcf:citekey order="4" intorder="1">developers_self_declaration_ai_generated_code</bcf:citekey>
     <bcf:citekey order="5" intorder="1">coderabbit_ai_vs_human_code_generation_report</bcf:citekey>
     <bcf:citekey order="6" intorder="1">sonarqube_metrics_definition</bcf:citekey>
-    <bcf:citekey order="7" intorder="1">isoiec25010_quality_model_emergentmind</bcf:citekey>
-    <bcf:citekey order="8" intorder="1">software_quality_metrics_aggregation_industry</bcf:citekey>
-    <bcf:citekey order="9" intorder="1">fault_prediction_software_metrics_sonarqube_rules</bcf:citekey>
+    <bcf:citekey order="7" intorder="1">software_quality_metrics_aggregation_industry</bcf:citekey>
+    <bcf:citekey order="8" intorder="1">sonarcommunity_historical_data</bcf:citekey>
+    <bcf:citekey order="9" intorder="1">software_service_supporting_software_quality_forecasting</bcf:citekey>
     <bcf:citekey order="10" intorder="1">perspective_on_xai_methods_shap_and_lime</bcf:citekey>
     <bcf:citekey order="11" intorder="1">diversity_boosts_ai_generated_text_detection</bcf:citekey>
     <bcf:citekey order="11" intorder="2">why_ai_generated_text_detection_fails</bcf:citekey>
