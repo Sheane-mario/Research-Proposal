@@ -7,8 +7,8 @@ The primary overarching objective of this research is to conceptualize, design, 
 \begin{enumerate}
     
     \item \textbf{AI Code Detection Methodology}
-    
-    To define and operationalize an advanced \textbf{AI Code Detection} methodology that utilizes structural unpredictability, entropy variance, and stylometric feature distributions \parencite{beyond_perplexity_character_distribution_signatures_mdta} to accurately estimate the proportion of AI-generated code within a repository commit.
+
+    To define and operationalize an advanced \textbf{AI Code Detection} methodology that leverages log-probability-based detection techniques rooted in LLM generation mechanics \parencite{excode_robust_explainable_model_detect_ai_generated_code}, specifically utilizing Min-K\% Prob and Tag\&Tab to analyze log-rank and token likelihood distributions, in order to accurately estimate the proportion of AI-generated code within a repository commit without relying on rigid, deterministic rules.
     
     \item \textbf{Quality Mapping and Weighting Mechanism}
     
@@ -23,8 +23,12 @@ The primary overarching objective of this research is to conceptualize, design, 
     To architect and formalize a \textbf{PatchTST-based Predictive Modeling Engine} \parencite{decompatchtst_hybrid_framework, patchtst_nixtla} capable of ingesting multivariate historical metric time-series to forecast future quality score trajectories \parencite{comparative_analysis_lstm_gru_transformer_construction_cost}, complete with statistically robust confidence intervals \parencite{fault_prediction_software_metrics_sonarqube_rules}.
     
     \item \textbf{Interpretation Layer with SHAP Integration}
-    
+
     To integrate a comprehensive \textbf{Interpretation Layer} utilizing SHAP methodologies \parencite{perspective_on_xai_methods_shap_and_lime, comparative_analysis_lime_shap_interpreters_diabetes} to translate numerical quality forecasts into semantic, human-readable insights \parencite{explainability_testing_ai_shap_lime_testriq}, benchmarked against empirically derived industry thresholds.
+
+    \item \textbf{Dataset Construction and Empirical Foundation}
+
+    To design and construct a temporally structured, chronologically mined dataset from mature open-source Python repositories, pairing probabilistic AI-authorship signals with continuous SonarQube quality metrics at discrete commit checkpoints \parencite{fault_prediction_software_metrics_sonarqube_rules}, to serve as the empirical foundation for training and evaluating the predictive modeling engine.
 
 \end{enumerate}
 

@@ -1,11 +1,23 @@
 \contentsline {chapter}{List of Acronyms}{i}{chapter*.1}%
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Problem Statement}{2}{section.1.1}%
-\contentsline {chapter}{\numberline {2}Literature Review}{5}{chapter.2}%
-\contentsline {section}{\numberline {2.1}AI-Generated Text and Code Detection}{5}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Hierarchical Software Quality Models}{6}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Predictive Time-Series Modeling}{7}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Explainable Artificial Intelligence}{8}{section.2.4}%
-\contentsline {chapter}{\numberline {3}Research Objectives / Questions}{9}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Research Objectives and Questions}{9}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Research Objectives}{9}{subsection.3.1.1}%
+\contentsline {chapter}{\numberline {2}Literature Review}{4}{chapter.2}%
+\contentsline {section}{\numberline {2.1}AI-Generated Text and Code Detection}{4}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Hierarchical Software Quality Models}{5}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Predictive Time-Series Modeling}{6}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Explainable Artificial Intelligence}{7}{section.2.4}%
+\contentsline {chapter}{\numberline {3}Research Objectives / Questions}{8}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Research Objectives and Questions}{8}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Research Objectives}{8}{subsection.3.1.1}%
+\contentsline {chapter}{\numberline {4}Planned Methodology}{11}{chapter.4}%
+\contentsline {section}{\numberline {4.1}System Architecture Overview}{11}{section.4.1}%
+\contentsline {section}{\numberline {4.2}AI Code Detection Methodology}{11}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Bug Categorization and ISO Mapping Model}{12}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Quality Scoring System}{12}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Predictive Modeling Engine}{13}{section.4.5}%
+\contentsline {section}{\numberline {4.6}Interpretation Layer and Explainability}{13}{section.4.6}%
+\contentsline {section}{\numberline {4.7}Dataset Design and Strategy}{13}{section.4.7}%
+\contentsline {chapter}{\numberline {5}Evaluation Strategy}{15}{chapter.5}%
+\contentsline {section}{\numberline {5.1}AI Code Detection Evaluation}{15}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Predictive Modeling Accuracy}{15}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Explainability and Practical Usefulness}{16}{section.5.3}%

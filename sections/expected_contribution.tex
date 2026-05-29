@@ -1,0 +1,17 @@
+This project will make contributions across four distinct categories relevant to both software engineering research and industrial practice.
+
+\section{Framework and Model}
+
+The primary theoretical contribution of this project is a novel \textbf{multi-dimensional software quality scoring framework} that systematically bridges the semantic gap between raw, granular SonarQube rule violations and the high-level quality dimensions defined by the ISO/IEC 25010 standard. Existing aggregation approaches treat metrics uniformly, allowing a high volume of minor issues to mask a single critical vulnerability. Our framework introduces dynamic weighting driven by issue severity, occurrence frequency, and call-graph centrality, combined with a non-linear, conflict-resistant aggregation strategy inspired by the SQUALE model. This produces a normalized, interpretable 0--100 composite quality index per dimension that more faithfully reflects real-world software health.
+
+\section{Method and Process}
+
+This project contributes an operationalized \textbf{AI code detection methodology} specifically tailored for source code repositories. By applying log-probability-based detection techniques—Min-K\% Prob and Tag\&Tab—to analyze token likelihood distributions at the commit level, the methodology produces a probabilistic estimate of AI-generated code proportion without relying on rigid syntactic heuristics. This is a direct methodological contribution to the SE community, as no current static analysis pipeline integrates AI authorship estimation as a weighted quality signal.
+
+\section{Tool and Platform}
+
+The practical contribution of this research is \textbf{Deltx}, an intelligent predictive analytics platform architected as a layer over a standard SonarQube deployment. By integrating the AI detection module, the quality scoring framework, a PatchTST-based forecasting engine, and a SHAP-powered explainability layer into a unified, decoupled architecture, Deltx transforms retrospective static analysis into proactive, forward-looking quality governance. This shifts engineering teams from a reactive posture—addressing technical debt only after it has breached critical thresholds—to a predictive one, providing actionable forecasts ahead of degradation events.
+
+\section{Empirical Dataset}
+
+Finally, this project will produce a \textbf{temporally structured empirical dataset} constructed by chronologically mining mature open-source Python repositories. Each data record pairs a probabilistic AI-authorship estimate with a full set of SonarQube quality metrics captured at a discrete commit checkpoint. Because no existing dataset tracks AI code authorship alongside longitudinal quality metrics in this manner, this dataset addresses a critical empirical gap in SE research and will serve as a reusable foundation for future work on AI-augmented software quality.

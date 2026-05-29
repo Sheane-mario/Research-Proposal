@@ -2380,9 +2380,9 @@
     <bcf:citekey order="4" intorder="1">developers_self_declaration_ai_generated_code</bcf:citekey>
     <bcf:citekey order="5" intorder="1">coderabbit_ai_vs_human_code_generation_report</bcf:citekey>
     <bcf:citekey order="6" intorder="1">sonarqube_metrics_definition</bcf:citekey>
-    <bcf:citekey order="7" intorder="1">isoiec25010_quality_model_emergentmind</bcf:citekey>
-    <bcf:citekey order="8" intorder="1">software_quality_metrics_aggregation_industry</bcf:citekey>
-    <bcf:citekey order="9" intorder="1">fault_prediction_software_metrics_sonarqube_rules</bcf:citekey>
+    <bcf:citekey order="7" intorder="1">software_quality_metrics_aggregation_industry</bcf:citekey>
+    <bcf:citekey order="8" intorder="1">sonarcommunity_historical_data</bcf:citekey>
+    <bcf:citekey order="9" intorder="1">software_service_supporting_software_quality_forecasting</bcf:citekey>
     <bcf:citekey order="10" intorder="1">perspective_on_xai_methods_shap_and_lime</bcf:citekey>
     <bcf:citekey order="11" intorder="1">diversity_boosts_ai_generated_text_detection</bcf:citekey>
     <bcf:citekey order="11" intorder="2">why_ai_generated_text_detection_fails</bcf:citekey>
@@ -2399,7 +2399,7 @@
     <bcf:citekey order="22" intorder="1">patchtst_nixtla</bcf:citekey>
     <bcf:citekey order="23" intorder="1">comparing_explainable_ai_models_shap_lime_electric_field</bcf:citekey>
     <bcf:citekey order="24" intorder="1">explainability_testing_ai_shap_lime_testriq</bcf:citekey>
-    <bcf:citekey order="25" intorder="1">beyond_perplexity_character_distribution_signatures_mdta</bcf:citekey>
+    <bcf:citekey order="25" intorder="1">excode_robust_explainable_model_detect_ai_generated_code</bcf:citekey>
     <bcf:citekey order="26" intorder="1">sonarqube_metrics_definition</bcf:citekey>
     <bcf:citekey order="27" intorder="1">isoiec25010_quality_model_emergentmind</bcf:citekey>
     <bcf:citekey order="28" intorder="1">relative_code_churn_defect_density</bcf:citekey>
@@ -2416,6 +2416,7 @@
     <bcf:citekey order="36" intorder="1">perspective_on_xai_methods_shap_and_lime</bcf:citekey>
     <bcf:citekey order="36" intorder="2">comparative_analysis_lime_shap_interpreters_diabetes</bcf:citekey>
     <bcf:citekey order="37" intorder="1">explainability_testing_ai_shap_lime_testriq</bcf:citekey>
+    <bcf:citekey order="38" intorder="1">fault_prediction_software_metrics_sonarqube_rules</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">
